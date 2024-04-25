@@ -1,0 +1,23 @@
+#Constantes
+Marco
+Cesar
+#Predicados 
+Hombre(x)
+Pompeyano(x)
+Romano(x)
+Gobernante(x)
+Leal(x,y)
+Odia(x,y)
+IntentaAsesinar(x,y)
+#Base de conocimiento
+Hombre(Marco)
+Pompellano(Marco)
+∀xPompellano(x3)⇒Romano(x3)
+Gobernante(Cesar)
+∀xRomano(x5)⇒[Leal(x5,Cesar)∨Odia(x5,Cesar)]
+∀x∀y[Hombre(x6)∧Gobernante(y6)∧IntentaAsesinar(x6,y6)]⇒¬Leal(x6,y6)
+IntentaAsesinar(Marco,Cesar)
+#Pregunta
+Odia(Marco,Cesar)
+#Negación
+¬Odia(Marco,Cesar)

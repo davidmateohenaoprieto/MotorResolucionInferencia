@@ -1,0 +1,33 @@
+#Modus Ponens
+a⇒b,a
+b
+#Eliminación de Conjunción (NO)
+a∧b
+a
+a∧b
+b
+#Eliminación de doble negación
+¬(¬a)
+a
+#Eliminación por implicación
+a⇒b
+¬a∨b
+#Eliminación de bicondicional
+a⇔b
+(a⇒b)∧(b⇒a)
+#Leyes de Morgan-Conjunción
+¬(a∧b)
+¬a∨¬b
+#Leyes de Morgan-Disyunción
+¬(a∨b)
+¬a∧¬b
+#Propiedad Distributiva
+(a∧(b∨y))
+(a∧b)∨(a∧y)
+(a∨(b∧y))
+(a∨b)∧(a∨y)
+#Resolución unitaria
+(a∨¬b),b
+a
+(a∨b),¬b
+a

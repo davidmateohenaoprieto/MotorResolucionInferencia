@@ -1,0 +1,7 @@
+Marco es un hombre.
+Marco es un Pompeyano.
+Todos los Pompeyanos son Romanos.
+César es un gobernante.
+Todos los Romanos son o leales al César o odian al César.
+La gente sólo intenta asesinar a los gobernantes a los que no es leal.
+Marco intentó asesinar al César
